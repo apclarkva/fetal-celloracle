@@ -1,2 +1,3 @@
 # fetal-celloracle
 This code infers gene regulatory networks for early atrial and ventricular cardiomyocytes from human fetal multiomics data. The scRNA-seq and scATAC-seq human fetal data came from Ameen et. al. "Integrative single-cell analysis of cardiogenesis identifies developmental trajectories and noncoding mutations in congenital heart disease"  (https://doi.org/10.1016/j.cell.2022.11.028). CellOracle was used to infer the gene regulatory networks (https://doi.org/10.1038/s41586-022-05688-9).
+The inferred networks including both scRNA-seq and scATAC-seq data are stored in links.celloracle.links, and the networks were built in fetal_grn_building.ipynb.
